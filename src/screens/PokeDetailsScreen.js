@@ -52,7 +52,7 @@ const PokeDetailsScreen = () => {
     return () => {
       source.cancel('Operation canceled by the user.');
     };
-  }, []);
+  }, [isFocus]);
 
   const styles = StyleSheet.create({
     parent: {
